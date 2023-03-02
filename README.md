@@ -38,6 +38,13 @@ Now, to authenticate the user we will be using the same encryption algorithm and
 
 ![image](https://user-images.githubusercontent.com/68748665/222434083-85f50825-1fad-42dd-ad44-7652bac84eab.png)<br><br>
 
+## DISCUSSIONS
+### Passkeys in Apple
+According to Apple, Passkeys are a replacement for passwords that are designed to provide a more convenient, more secure, password-less sign-in experience on websites and apps. Passkeys are a standard-based technology that, unlike passwords, are resistant to phishing, always strong and designed so that there are no shared secrets. They simplify the account registration process for apps and websites, are easy to use and work across all your Apple devices, and even non-Apple devices within close physical proximity.
+
+### How is it being used in Google?
+On Chrome on Android, passkeys are stored in the Google Password Manager, which synchronizes passkeys between the user's Android devices that are signed into the same Google account. Users are not restricted to using the passkeys only on the device where they are stored. Passkeys stored on phones can be used when logging into a laptop, even if the passkey is not synchronized to the laptop, as long as the phone is near the laptop and the user approves the sign-in on the phone. As passkeys are built on FIDO standards, all browsers can adopt them.
+
 ## CONCLUSION
 Thus we came up with a working solution to meet the demand of our problem statement of storing and retrieving confidential information using biometric encryption where no one except the user themselves is capable of retrieving and decrypting the confidential information.
 
