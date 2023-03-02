@@ -1,5 +1,10 @@
 # Fingerprint Based Biometric Encryption
 
+## REQUIREMENTS
+Fernet
+base64 
+hashlib
+
 ## ARCHITECTURE ILLUSTRATIONS
 <b> Tier 1 </b> Data Collection <br>
 <b> Tier 2 </b> Encryption and Decryption <br>
